@@ -5,5 +5,12 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Quiz Question", fileName = "New Question")]
 public class QuestionSO : ScriptableObject
 {
-   [SerializeField] string question = "Ender new question text here";
+   [TextArea(2,6)]
+   [SerializeField] string question = "Enter new question text here";
+
+   public string GetQuestion()
+   {
+      return question;
+   }
+
 }
