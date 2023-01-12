@@ -7,15 +7,15 @@ using System;
 
 public class HelloWorld : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
-        var number = "1234";
-        int i = Convert.ToInt32(number);
-        Debug.Log(i);
+       var a =10;
+       var b = 3;
+
+       Debug.Log(a + b);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
