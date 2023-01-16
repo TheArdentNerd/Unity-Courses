@@ -528,7 +528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Khazadrin Outpost
+  m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e1e8b44613f1ea41a4bd5de5f02d48a, type: 2}
   m_sharedMaterial: {fileID: 9163841319834408187, guid: 5e1e8b44613f1ea41a4bd5de5f02d48a, type: 2}
@@ -617,6 +617,7 @@ GameObject:
   - component: {fileID: 924208731}
   - component: {fileID: 924208730}
   - component: {fileID: 924208729}
+  - component: {fileID: 924208733}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -707,6 +708,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &924208733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924208728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8929c595eeb564f47914f74d5d612899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1419688122}
+  question: {fileID: 11400000, guid: ef485c417957c8a46ad9cb79eaf6e23c, type: 2}
+  answerButtons:
+  - {fileID: 1505717669}
+  - {fileID: 1407790884}
+  - {fileID: 1848487552}
+  - {fileID: 1781044814}
 --- !u!1 &1309945425
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,10 +897,10 @@ RectTransform:
   m_Father: {fileID: 1309945426}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -187.5}
+  m_SizeDelta: {x: 600, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1407790886
 MonoBehaviour:
@@ -1134,10 +1154,10 @@ RectTransform:
   m_Father: {fileID: 1309945426}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -62.5}
+  m_SizeDelta: {x: 600, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1505717671
 MonoBehaviour:
@@ -1279,7 +1299,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Amberfalls
+  m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e1e8b44613f1ea41a4bd5de5f02d48a, type: 2}
   m_sharedMaterial: {fileID: 9163841319834408187, guid: 5e1e8b44613f1ea41a4bd5de5f02d48a, type: 2}
@@ -1467,10 +1487,10 @@ RectTransform:
   m_Father: {fileID: 1309945426}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -437.5}
+  m_SizeDelta: {x: 600, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1781044816
 MonoBehaviour:
@@ -1612,7 +1632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Brackendale
+  m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e1e8b44613f1ea41a4bd5de5f02d48a, type: 2}
   m_sharedMaterial: {fileID: 9163841319834408187, guid: 5e1e8b44613f1ea41a4bd5de5f02d48a, type: 2}
@@ -1724,10 +1744,10 @@ RectTransform:
   m_Father: {fileID: 1309945426}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -312.5}
+  m_SizeDelta: {x: 600, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848487554
 MonoBehaviour:
@@ -2059,7 +2079,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bywater
+  m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e1e8b44613f1ea41a4bd5de5f02d48a, type: 2}
   m_sharedMaterial: {fileID: 9163841319834408187, guid: 5e1e8b44613f1ea41a4bd5de5f02d48a, type: 2}

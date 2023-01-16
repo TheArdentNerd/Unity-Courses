@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 2
   m_EditorClassIdentifier: 
   question: Where do the Dwarves live?
+  answers:
+  - Brackendale
+  - Khazadrin Outpost
+  - Amberfalls
+  - Bywater
+  correctAnswerIndex: 0

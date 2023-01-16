@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: New Question
   m_EditorClassIdentifier: 
   question: Who trades in textiles?
+  answers:
+  - Amberfalls
+  - Bywater
+  - Brackendale
+  - Khazadrin Outpost
+  correctAnswerIndex: 2

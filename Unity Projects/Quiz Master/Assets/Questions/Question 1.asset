@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 1
   m_EditorClassIdentifier: 
   question: Where is the best fishing to be found?
+  answers:
+  - Khazadrin Outpost
+  - Amberfalls
+  - Bywater
+  - Brackendale
+  correctAnswerIndex: 0

@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 3
   m_EditorClassIdentifier: 
   question: Where is the best place to find Amber?
+  answers:
+  - Bywater
+  - Brackendale
+  - Khazadrin Outpost
+  - Amberfalls
+  correctAnswerIndex: 0
